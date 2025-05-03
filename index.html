@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículum Interactivo</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <div class="container nav-container">
+      <div class="nav-logo">Mi CV</div>
+      <div class="nav-links">
+        <a href="#personal">Datos Personales</a>
+        <a href="#education">Estudios</a>
+        <a href="#skills">Tecnologías</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#video">Video</a>
+        <a href="#references">Referencias</a>
+      </div>
+      <button class="theme-toggle" aria-label="Cambiar tema">
+        <i class="fas fa-moon"></i>
+      </button>
+      <button class="mobile-menu-btn" aria-label="Abrir menú">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Menú móvil (oculto por defecto) -->
+  <div class="mobile-menu">
+    <button class="close-menu" aria-label="Cerrar menú">
+      <i class="fas fa-times"></i>
+    </button>
+    <a href="#personal">Datos Personales</a>
+    <a href="#education">Estudios</a>
+    <a href="#skills">Tecnologías</a>
+    <a href="#projects">Proyectos</a>
+    <a href="#video">Video</a>
+    <a href="#references">Referencias</a>
+  </div>
+
+  <header>
+    <div class="container">
+      <div class="profile-container">
+        <img src="https://i.pinimg.com/736x/a4/83/aa/a483aab604cb2f0dd08ed6f5039415e8.jpg" alt="Foto de perfil" class="profile-img">
+        <div class="profile-title">
+          <h1>Jostin Almeida Romero</h1>
+          <p>Estudiante de Desarrollo de Software</p>
+        </div>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/jostin-almeida-3b203b260/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/Jostin2210" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://x.com/Salchi22_x" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100004699096672"target="_blank" aria-label="Email"><i class="fa-brands fa-facebook-f"></i></a>
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="personal">
+      <div class="section-title">
+        <i class="fas fa-user"></i>
+        <h2>Datos Personales</h2>
+      </div>
+      <div class="personal-info">
+        <div class="info-item">
+          <i class="fas fa-calendar-alt"></i>
+          <span><strong>Edad:</strong> 21 años</span>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-phone"></i>
+          <span><strong>Teléfono:</strong> 0963095546</span>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-envelope"></i>
+          <span><strong>Email:</strong> Jostinalmeida808@gmail.com</span>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span><strong>Dirección:</strong> Rcto. Fatima</span>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-globe"></i>
+          <span><strong>Sitio web:</strong> github.com/Jostin2210</span>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-language"></i>
+          <span><strong>Idiomas:</strong> Español (Nativo), Inglés (duolingo)</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="section-title">
+        <i class="fas fa-graduation-cap"></i>
+        <h2>Estudios Realizados</h2>
+      </div>
+      <div class="education-item">
+        <h3>Desarrollo de Software</h3>
+        <p><strong>Istjba</strong> | 5to semestre (Actual)</p>
+        <p>2021 - Presente</p>
+        <p>Promedio:8/10</p>
+      </div>
+      <div class="education-item">
+        <h3>Curso de ingles</h3>
+        <p><strong>Istjba</strong></p>
+        <p>2024 - 2025</p>
+        <p>Promedio:7.5/10</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="section-title">
+        <i class="fas fa-laptop-code"></i>
+        <h2>Lenguajes y Tecnologías</h2>
+      </div>
+      <div class="skills-container">
+        <div class="skill-item">Java</div>
+        <div class="skill-item">HTML5</div>
+        <div class="skill-item">CSS3</div>
+        <div class="skill-item">JavaScript</div>
+        <div class="skill-item">MySQL</div>
+        <div class="skill-item">Kotlin</div>
+        <div class="skill-item">Android</div>
+        <div class="skill-item">Github</div>
+        <div class="skill-item">React</div>
+        <div class="skill-item">Node.js</div>
+        <div class="skill-item">Firebase</div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="section-title">
+        <i class="fas fa-project-diagram"></i>
+        <h2>Proyectos Realizados</h2>
+      </div>
+      <div class="projects-container">
+        <div class="project-card">
+         
+          <div class="project-content">
+            <h3> Desarrollo de una app de escritorio para la lavandería "La original"</h3>
+            <p><strong>Rol:</strong> Diseño</p>
+            <p>Se desarrolló una aplicación de escritorio para la lavandería "La Original", con el objetivo de optimizar la gestión de pedidos, clientes y servicios. La app permite registrar entregas, generar reportes y llevar un control eficiente del estado de las prendas, mejorando así la organización interna y la atención al cliente.</p>
+            <div class="project-tags">
+              <span class="project-tag">Java</span>
+              <span class="project-tag">MySQL</span>
+
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+         
+          <div class="project-content">
+            <h3>Desarrollo de un módulo web de facturación incluido la gestión de pedidos mediante una aplicación móvil para restaurantes.</h3>
+            <p><strong>Rol:</strong> Documentacion y diseño</p>
+            <p>El proyecto consistió en el desarrollo de un módulo web de facturación y la gestión de pedidos mediante una aplicación móvil dirigida a restaurantes. Se implementaron tecnologías como Django para el backend, Node.js y JavaScript en la lógica del sistema, React para la interfaz de usuario, y la librería Lodash para optimizar funciones en el desarrollo.</p>
+            <div class="project-tags">
+              <span class="project-tag">HTML/CSS</span>
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+         
+          <div class="project-content">
+            <h3>Desarrollo de un sistema informático para el cobro de tarifas en transporte público del cantón Daule.</h3>
+            <p><strong>Rol:</strong> Desarrollador</p>
+            <p>El proyecto consistió en el desarrollo de un sistema informático para el cobro automatizado de tarifas en el transporte público del cantón Daule, utilizando tecnología NFC. Este sistema permitió a los usuarios realizar pagos de forma rápida y segura mediante tarjetas o dispositivos móviles, reduciendo el uso de efectivo y mejorando la eficiencia del servicio.</p>
+            <div class="project-tags">
+              <span class="project-tag">Html/CSS  </span>
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">React native</span>
+              <span class="project-tag">Mysql</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="video">
+      <div class="section-title">
+        <i class="fas fa-video"></i>
+        <h2>Mi Experiencia en Video</h2>
+      </div>
+      <p class="mb-4">En este video de 2 minutos comparto mi experiencia, los proyectos en los que he participado, los logros obtenidos y por qué deberías contratarme.</p>
+      <div class="video-container">
+        <!-- Reemplaza este enlace con tu video real -->
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Mi experiencia profesional" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section id="soft-skills">
+      <div class="section-title">
+        <i class="fas fa-brain"></i>
+        <h2>Habilidades Blandas</h2>
+      </div>
+      <div class="soft-skills-container">
+        <div class="soft-skill-item">
+          <i class="fas fa-comments"></i>
+          <span>Comunicación efectiva</span>
+        </div>
+        <div class="soft-skill-item">
+          <i class="fas fa-users"></i>
+          <span>Trabajo en equipo</span>
+        </div>
+        <div class="soft-skill-item">
+          <i class="fas fa-lightbulb"></i>
+          <span>Pensamiento crítico</span>
+        </div>
+        <div class="soft-skill-item">
+          <i class="fas fa-puzzle-piece"></i>
+          <span>Resolución de problemas</span>
+        </div>
+        <div class="soft-skill-item">
+          <i class="fas fa-paint-brush"></i>
+          <span>Creatividad</span>
+        </div>
+        <div class="soft-skill-item">
+          <i class="fas fa-clock"></i>
+          <span>Gestión del tiempo</span>
+        </div>
+        <div class="soft-skill-item">
+          <i class="fas fa-chart-line"></i>
+          <span>Adaptabilidad</span>
+        </div>
+        <div class="soft-skill-item">
+          <i class="fas fa-book"></i>
+          <span>Aprendizaje continuo</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="references">
+      <div class="section-title">
+        <i class="fas fa-address-card"></i>
+        <h2>Referencias Personales</h2>
+      </div>
+      <div class="references-container">
+        <div class="reference-card">
+          <h3>Renato Manzano</h3>
+          <p><strong>Cargo:</strong> Profesor</p>
+          <p><strong>Institución:</strong> Istjba</p>
+          <p><strong>Teléfono:</strong> +593 98 498 4009</p>
+        </div>
+        
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/jostin-almeida-3b203b260/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/Jostin2210" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://x.com/Salchi22_x" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100004699096672"target="_blank" aria-label="Email"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+        <div class="footer-links">
+          <a href="#personal">Datos Personales</a>
+          <a href="#education">Estudios</a>
+          <a href="#skills">Tecnologías</a>
+          <a href="#projects">Proyectos</a>
+          <a href="#references">Referencias</a>
+        </div>
+        <p class="copyright">Hecho con <i class="fas fa-heart" style="color: #ff6b6b;"></i> por Jostin ALmeida| &copy; 2025</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
